@@ -22,6 +22,8 @@ public class CustomerServiceApplication {
 			customerRepository.save(new Customer(null,"mouad","med@gmail.com"));
 			customerRepository.save(new Customer(null,"Yassine","hassan@gmail.com"));
 			customerRepository.save(new Customer(null,"Salima","salima@gmail.com"));
+			customerRepository.save(new Customer(null,"Nadir","nadir@gmail.com"));
+			customerRepository.save(new Customer(null,"Rachid","rachid@gmail.com"));
 			customerRepository.findAll().forEach(c ->{
 				System.out.println(c.toString());
 			} );
